@@ -1,6 +1,5 @@
 # TriviaQuizApp
-TriviaQuizApp
-Built one page Trivia Quiz App using React Native
+Built one page Trivia Quiz App using React Native<br/>
 In the app, Trivia api is used.
 
 ## clone repository from master branch
