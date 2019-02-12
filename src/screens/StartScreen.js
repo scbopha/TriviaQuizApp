@@ -132,6 +132,8 @@ class StartScreen extends React.Component {
           <WebView
             originWhitelist={['*']}
             source={{ html: this.state.question.question }}
+            useWebKit={false}
+            scalesPageToFit={false}
           />
         </View>
         {

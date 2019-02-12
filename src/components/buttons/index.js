@@ -19,8 +19,8 @@ export class Button extends React.Component {
     const attributes = (!isiOS && Platform.Version >= 21) ? [{background: TouchableNativeFeedback.Ripple('grey')}] : []
     if (isiOS) {
       return (
-        <TouchableOpacity onPress={this.props.onPress} style={style} disabled={disabled}>
-          <View style={{justifyContent:'center', alignItems:'center', height: 40, ...containerStyle}}>
+        <TouchableOpacity onPress={this.props.onPress} style={containerStyle} disabled={disabled}>
+          <View style={{justifyContent:'center', alignItems:'center', height: '100%'}}>
           {this.props.children}
           </View>
         </TouchableOpacity>
