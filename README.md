@@ -1,6 +1,6 @@
 # TriviaQuizApp
 Built one page Trivia Quiz App using React Native<br/>
-In the app, Trivia api is used.
+In the app, the [Open Trivia Database API](https://opentdb.com) is used.
 
 ## clone repository from master branch
 ```
